@@ -64,6 +64,12 @@ http://qdrant-db
   yarn add @azure/static-web-apps-cli -d
 
   npm build run
+
+  # copy .env and swa-cli.config.json
+  npx swa login
+  
+  # publish 
+  npx swa publish
 ```
 
 two files are needed to be not checked in
