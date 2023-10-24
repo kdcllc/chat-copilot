@@ -63,7 +63,7 @@ http://qdrant-db
 
   yarn add @azure/static-web-apps-cli -d
 
-  npm build run
+  npm run build
 
   # copy .env and swa-cli.config.json
   npx swa login

@@ -137,9 +137,9 @@
     tslib "^2.2.0"
 
 "@azure/core-util@^1.0.0", "@azure/core-util@^1.1.0", "@azure/core-util@^1.2.0", "@azure/core-util@^1.3.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@azure/core-util/-/core-util-1.6.0.tgz#cfad524af77f0857bd4f32a722b9fed5cb0a5c6c"
-  integrity sha512-FE1CLFvGZ9Ni+B2R/2E30Z6N5quebrFbroC3Ws1bTt1kX2EEL8OiX2Dtz2XdTVzrKRMOjlJsae9m/7wCsKnTyw==
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@azure/core-util/-/core-util-1.6.1.tgz#fea221c4fa43c26543bccf799beb30c1c7878f5a"
+  integrity sha512-h5taHeySlsV9qxuK64KZxy4iln1BtMYlNt5jbuEFN3UFSAd1EwKg/Gjl5a6tZ/W8t6li3xPnutOx7zbDyXnPmQ==
   dependencies:
     "@azure/abort-controller" "^1.0.0"
     tslib "^2.2.0"
@@ -3445,6 +3445,11 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
+"@types/lodash@^4.14.92":
+  version "4.14.200"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.200.tgz#435b6035c7eba9cdf1e039af8212c9e9281e7149"
+  integrity sha512-YI/M/4HRImtNf3pJgbF+W6FrXovqj+T+/HpENLTooK9PnkacBsDpeP3IpHab40CClUfhNmdM2WTNP2sa2dni5Q==
+
 "@types/mdast@^4.0.0":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@types/mdast/-/mdast-4.0.2.tgz#4695661024ffbd9e52cf71e05c69a1f08c0792f6"
@@ -5616,6 +5621,35 @@ detect-port-alt@^1.1.6:
     address "^1.0.1"
     debug "^2.6.0"
 
+devcert@^1.2.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/devcert/-/devcert-1.2.2.tgz#7ebbefeb74991e269ceafcd66f2bb78677c12652"
+  integrity sha512-UsLqvtJGPiGwsIZnJINUnFYaWgK7CroreGRndWHZkRD58tPFr3pVbbSyHR8lbh41+azR4jKvuNZ+eCoBZGA5kA==
+  dependencies:
+    "@types/configstore" "^2.1.1"
+    "@types/debug" "^0.0.30"
+    "@types/get-port" "^3.2.0"
+    "@types/glob" "^5.0.34"
+    "@types/lodash" "^4.14.92"
+    "@types/mkdirp" "^0.5.2"
+    "@types/node" "^8.5.7"
+    "@types/rimraf" "^2.0.2"
+    "@types/tmp" "^0.0.33"
+    application-config-path "^0.1.0"
+    command-exists "^1.2.4"
+    debug "^3.1.0"
+    eol "^0.9.1"
+    get-port "^3.2.0"
+    glob "^7.1.2"
+    is-valid-domain "^0.1.6"
+    lodash "^4.17.4"
+    mkdirp "^0.5.1"
+    password-prompt "^1.0.4"
+    rimraf "^2.6.2"
+    sudo-prompt "^8.2.0"
+    tmp "^0.0.33"
+    tslib "^1.10.0"
+
 devlop@^1.0.0, devlop@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/devlop/-/devlop-1.1.0.tgz#4db7c2ca4dc6e0e834c30be70c94bbc976dc7018"
@@ -7414,6 +7448,11 @@ is-boolean-object@^1.1.0:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
 
+is-buffer@~1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
+  integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
+
 is-callable@^1.1.3, is-callable@^1.1.4, is-callable@^1.2.7:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.2.7.tgz#3bc2a85ea742d9e36205dcacdd72ca1fdc51b055"
@@ -8400,6 +8439,21 @@ keyborg@^2.1.0:
   resolved "https://registry.yarnpkg.com/keyborg/-/keyborg-2.1.0.tgz#e6975b83ade58bef7bed13d6e107b9ed2b98ccd3"
   integrity sha512-0+v3/GIYG6gClwBOXrHet31n1UJW49xbKgVPUu6we41aq9tAmMosVXEdctZxsQdebyxtrcxVTkvHjBD1XPOHwg==
 
+keytar@^7.9.0:
+  version "7.9.0"
+  resolved "https://registry.yarnpkg.com/keytar/-/keytar-7.9.0.tgz#4c6225708f51b50cbf77c5aae81721964c2918cb"
+  integrity sha512-VPD8mtVtm5JNtA2AErl6Chp06JBfy7diFQ7TQQhdpWOl6MrCRB+eRbvAZUsbGQS9kiMq0coJsy0W0vHpDCkWsQ==
+  dependencies:
+    node-addon-api "^4.3.0"
+    prebuild-install "^7.0.1"
+
+keyv@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-3.1.0.tgz#ecc228486f69991e49e9476485a5be1e8fc5c4d9"
+  integrity sha512-9ykJ/46SN/9KPM/sichzQ7OvXyGDYKGTaDlKMGCAlg2UK8KRy4jb0d8sFc+0Tt0YYnThq8X2RZgCg74RPxgcVA==
+  dependencies:
+    json-buffer "3.0.0"
+
 kind-of@^6.0.2:
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
@@ -8654,6 +8708,15 @@ markdown-table@^3.0.0:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-3.0.3.tgz#e6331d30e493127e031dd385488b5bd326e4a6bd"
   integrity sha512-Z1NL3Tb1M9wH4XESsCDEksWoKTdlUafKc4pt0GRwjUyXaCFZ+dc3g2erqB6zm3szA2IUSi7VnPI+o/9jnxh9hw==
+
+md5@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/md5/-/md5-2.3.0.tgz#c3da9a6aae3a30b46b7b0c349b87b110dc3bda4f"
+  integrity sha512-T1GITYmFaKuO91vxyoQMFETst+O71VUPEU3ze5GNzDm0OWdP8v1ziTaAEPUr/3kLsY3Sftgz242A1SetQiDL7g==
+  dependencies:
+    charenc "0.0.2"
+    crypt "0.0.2"
+    is-buffer "~1.1.6"
 
 mdast-util-find-and-replace@^3.0.0:
   version "3.0.1"
@@ -11031,6 +11094,13 @@ run-parallel@^1.1.9:
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
+
+rxjs@^7.0.0, rxjs@^7.5.4:
+  version "7.8.1"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.1.tgz#6f6f3d99ea8044291efd92e7c7fcf562c4057543"
+  integrity sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==
+  dependencies:
+    tslib "^2.1.0"
 
 safe-array-concat@^1.0.0:
   version "1.0.0"
